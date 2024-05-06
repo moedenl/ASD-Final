@@ -1,0 +1,250 @@
+[gd_scene load_steps=28 format=3 uid="uid://dtw6j0ailo8xu"]
+
+[ext_resource type="Texture2D" uid="uid://upmn754sw4i5" path="res://AllClearButton.png" id="1_2dgln"]
+[ext_resource type="Texture2D" uid="uid://w5qsf4encoas" path="res://ScreenCorner.png" id="1_78i83"]
+[ext_resource type="Texture2D" uid="uid://7mvtyi5dgejd" path="res://ScreenBorder.png" id="2_7ropd"]
+[ext_resource type="Texture2D" uid="uid://dtlxf00qt0vo1" path="res://ClearButton.png" id="2_8nnrm"]
+[ext_resource type="Texture2D" uid="uid://84ew6rj11ali" path="res://ScreenBorderSide.png" id="3_f3e55"]
+[ext_resource type="Texture2D" uid="uid://d2yy7xy8emfxw" path="res://DivideButton.png" id="3_fymle"]
+[ext_resource type="Texture2D" uid="uid://i8ttdj3idqjm" path="res://ExponentButton.png" id="4_1lw5a"]
+[ext_resource type="Texture2D" uid="uid://x45a27wjl0m5" path="res://ScreenOpen.png" id="4_15mwk"]
+[ext_resource type="Texture2D" uid="uid://dni7ubawtrvr5" path="res://MinusButton.png" id="5_613mh"]
+[ext_resource type="Texture2D" uid="uid://cc2eummj7kxk4" path="res://MultiplyButton.png" id="6_lx6mi"]
+[ext_resource type="Texture2D" uid="uid://dd3x7vocy3umf" path="res://EmptyTile.png" id="7_td6lm"]
+[ext_resource type="Texture2D" uid="uid://2ty0nxs7eydi" path="res://NegativeButton.png" id="7_wkjb6"]
+[ext_resource type="Texture2D" uid="uid://oexw7qdrj6t3" path="res://NumberButton0.png" id="8_fhoox"]
+[ext_resource type="Texture2D" uid="uid://d1ukn1ryahpmx" path="res://NumberButton1.png" id="9_fbuc4"]
+[ext_resource type="Texture2D" uid="uid://dxn0nwf0snidw" path="res://NumberButton2.png" id="10_5n5tj"]
+[ext_resource type="Texture2D" uid="uid://ca2ohi0ne6ti5" path="res://NumberButton3.png" id="11_1po8a"]
+[ext_resource type="Texture2D" uid="uid://bwolhsprglykt" path="res://NumberButton4.png" id="12_c2mfj"]
+[ext_resource type="Texture2D" uid="uid://to2j1iecnbqp" path="res://NumberButton5.png" id="13_nqea7"]
+[ext_resource type="Texture2D" uid="uid://dc44xqhj60ewx" path="res://NumberButton6.png" id="14_tw82k"]
+[ext_resource type="Texture2D" uid="uid://d0dsdp1h11cu5" path="res://NumberButton7.png" id="15_j57hp"]
+[ext_resource type="Texture2D" uid="uid://bkqnc6p1nybce" path="res://NumberButton8.png" id="16_7qtcs"]
+[ext_resource type="Texture2D" uid="uid://bylv2jksqdas6" path="res://NumberButton9.png" id="17_e43d1"]
+[ext_resource type="Texture2D" uid="uid://gsjp6exrblbo" path="res://PlusButton.png" id="18_fpx8g"]
+[ext_resource type="Texture2D" uid="uid://bxvyc01vjl1f" path="res://DecimalButton.png" id="23_str73"]
+[ext_resource type="Texture2D" uid="uid://cmcfg4p3wwi3g" path="res://EqualsButton.png" id="24_ifr7e"]
+[ext_resource type="Script" path="res://ScreenText.gd" id="26_1qpp0"]
+[ext_resource type="FontFile" uid="uid://ub3ujjj1uikb" path="res://munro.ttf" id="26_qhthv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Control"]
+layout_mode = 0
+offset_right = 125.0
+offset_bottom = 156.0
+theme_override_constants/h_separation = -1
+theme_override_constants/v_separation = -1
+columns = 4
+
+[node name="TopLeftScreen" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("1_78i83")
+
+[node name="TopLeftScreen2" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("2_7ropd")
+
+[node name="TopLeftScreen3" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("2_7ropd")
+
+[node name="TopLeftScreen4" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("1_78i83")
+flip_h = true
+
+[node name="TopLeftScreen5" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_f3e55")
+
+[node name="TopLeftScreen6" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_15mwk")
+
+[node name="TopLeftScreen7" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_15mwk")
+
+[node name="TopLeftScreen8" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_f3e55")
+flip_h = true
+
+[node name="TopLeftScreen9" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_f3e55")
+
+[node name="TopLeftScreen10" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_15mwk")
+
+[node name="TopLeftScreen11" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_15mwk")
+
+[node name="TopLeftScreen12" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_f3e55")
+flip_h = true
+
+[node name="TopLeftScreen13" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("1_78i83")
+flip_v = true
+
+[node name="TopLeftScreen14" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("2_7ropd")
+flip_v = true
+
+[node name="TopLeftScreen15" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("2_7ropd")
+flip_v = true
+
+[node name="TopLeftScreen16" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("1_78i83")
+flip_h = true
+flip_v = true
+
+[node name="AllClearButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_2dgln")
+
+[node name="ClearButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("2_8nnrm")
+
+[node name="EmptyTile" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("7_td6lm")
+flip_h = true
+flip_v = true
+
+[node name="EmptyTile2" type="TextureRect" parent="Control/GridContainer"]
+layout_mode = 2
+texture = ExtResource("7_td6lm")
+flip_h = true
+flip_v = true
+
+[node name="OpenParenthesisButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("7_td6lm")
+
+[node name="CloseParenthesisButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("7_td6lm")
+
+[node name="ExponentButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("4_1lw5a")
+
+[node name="DivideButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("3_fymle")
+
+[node name="NumberButton7" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("15_j57hp")
+
+[node name="NumberButton8" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("16_7qtcs")
+
+[node name="NumberButton9" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("17_e43d1")
+
+[node name="MultiplyButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("6_lx6mi")
+
+[node name="NumberButton4" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("12_c2mfj")
+
+[node name="NumberButton5" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("13_nqea7")
+
+[node name="NumberButton6" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("14_tw82k")
+
+[node name="SubtractButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("5_613mh")
+
+[node name="NumberButton1" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("9_fbuc4")
+
+[node name="NumberButton2" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("10_5n5tj")
+
+[node name="NumberButton3" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("11_1po8a")
+
+[node name="AdditionButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("18_fpx8g")
+
+[node name="NegativeButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("7_wkjb6")
+
+[node name="NumberButton0" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("8_fhoox")
+
+[node name="DecimalButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("23_str73")
+
+[node name="EqualsButton" type="TextureButton" parent="Control/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("24_ifr7e")
+
+[node name="ScreenText" type="RichTextLabel" parent="."]
+offset_left = 9.0
+offset_top = 5.0
+offset_right = 118.0
+offset_bottom = 118.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("26_qhthv")
+theme_override_font_sizes/normal_font_size = 20
+script = ExtResource("26_1qpp0")
+
+[connection signal="pressed" from="Control/GridContainer/AllClearButton" to="ScreenText" method="_on_all_clear_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/ClearButton" to="ScreenText" method="_on_clear_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/OpenParenthesisButton" to="ScreenText" method="_on_open_parenthesis_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/CloseParenthesisButton" to="ScreenText" method="_on_close_parenthesis_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/ExponentButton" to="ScreenText" method="_on_exponent_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/DivideButton" to="ScreenText" method="_on_divide_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton7" to="ScreenText" method="_on_number_button_7_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton8" to="ScreenText" method="_on_number_button_8_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton9" to="ScreenText" method="_on_number_button_9_pressed"]
+[connection signal="pressed" from="Control/GridContainer/MultiplyButton" to="ScreenText" method="_on_multiply_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton4" to="ScreenText" method="_on_number_button_4_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton5" to="ScreenText" method="_on_number_button_5_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton6" to="ScreenText" method="_on_number_button_6_pressed"]
+[connection signal="pressed" from="Control/GridContainer/SubtractButton" to="ScreenText" method="_on_subtract_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton1" to="ScreenText" method="_on_number_button_1_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton2" to="ScreenText" method="_on_number_button_2_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton3" to="ScreenText" method="_on_number_button_3_pressed"]
+[connection signal="pressed" from="Control/GridContainer/AdditionButton" to="ScreenText" method="_on_addition_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NegativeButton" to="ScreenText" method="_on_negative_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/NumberButton0" to="ScreenText" method="_on_number_button_0_pressed"]
+[connection signal="pressed" from="Control/GridContainer/DecimalButton" to="ScreenText" method="_on_decimal_button_pressed"]
+[connection signal="pressed" from="Control/GridContainer/EqualsButton" to="ScreenText" method="_on_equals_button_pressed"]

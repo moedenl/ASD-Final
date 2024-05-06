@@ -1,0 +1,151 @@
+[gd_scene load_steps=19 format=3 uid="uid://d2utnhl5vm6vj"]
+
+[ext_resource type="Texture2D" uid="uid://upmn754sw4i5" path="res://AllClearButton.png" id="1_2dgln"]
+[ext_resource type="Texture2D" uid="uid://dtlxf00qt0vo1" path="res://ClearButton.png" id="2_8nnrm"]
+[ext_resource type="Texture2D" uid="uid://d2yy7xy8emfxw" path="res://DivideButton.png" id="3_fymle"]
+[ext_resource type="Texture2D" uid="uid://i8ttdj3idqjm" path="res://ExponentButton.png" id="4_1lw5a"]
+[ext_resource type="Texture2D" uid="uid://dni7ubawtrvr5" path="res://MinusButton.png" id="5_613mh"]
+[ext_resource type="Texture2D" uid="uid://cc2eummj7kxk4" path="res://MultiplyButton.png" id="6_lx6mi"]
+[ext_resource type="Texture2D" uid="uid://2ty0nxs7eydi" path="res://NegativeButton.png" id="7_wkjb6"]
+[ext_resource type="Texture2D" uid="uid://oexw7qdrj6t3" path="res://NumberButton0.png" id="8_fhoox"]
+[ext_resource type="Texture2D" uid="uid://d1ukn1ryahpmx" path="res://NumberButton1.png" id="9_fbuc4"]
+[ext_resource type="Texture2D" uid="uid://dxn0nwf0snidw" path="res://NumberButton2.png" id="10_5n5tj"]
+[ext_resource type="Texture2D" uid="uid://ca2ohi0ne6ti5" path="res://NumberButton3.png" id="11_1po8a"]
+[ext_resource type="Texture2D" uid="uid://bwolhsprglykt" path="res://NumberButton4.png" id="12_c2mfj"]
+[ext_resource type="Texture2D" uid="uid://to2j1iecnbqp" path="res://NumberButton5.png" id="13_nqea7"]
+[ext_resource type="Texture2D" uid="uid://dc44xqhj60ewx" path="res://NumberButton6.png" id="14_tw82k"]
+[ext_resource type="Texture2D" uid="uid://d0dsdp1h11cu5" path="res://NumberButton7.png" id="15_j57hp"]
+[ext_resource type="Texture2D" uid="uid://bkqnc6p1nybce" path="res://NumberButton8.png" id="16_7qtcs"]
+[ext_resource type="Texture2D" uid="uid://bylv2jksqdas6" path="res://NumberButton9.png" id="17_e43d1"]
+[ext_resource type="Texture2D" uid="uid://gsjp6exrblbo" path="res://PlusButton.png" id="18_fpx8g"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AllClearButton" type="TextureButton" parent="."]
+offset_left = 99.0
+offset_top = 9.0
+offset_right = 131.0
+offset_bottom = 41.0
+texture_normal = ExtResource("1_2dgln")
+
+[node name="ClearButton" type="TextureButton" parent="."]
+offset_left = 133.0
+offset_top = 9.0
+offset_right = 165.0
+offset_bottom = 41.0
+texture_normal = ExtResource("2_8nnrm")
+
+[node name="DivideButton" type="TextureButton" parent="."]
+offset_left = 159.0
+offset_top = 37.0
+offset_right = 191.0
+offset_bottom = 69.0
+texture_normal = ExtResource("3_fymle")
+
+[node name="ExponentButton" type="TextureButton" parent="."]
+offset_left = 160.0
+offset_top = 9.0
+offset_right = 192.0
+offset_bottom = 41.0
+texture_normal = ExtResource("4_1lw5a")
+
+[node name="SubtractButton" type="TextureButton" parent="."]
+offset_left = 161.0
+offset_top = 100.0
+offset_right = 193.0
+offset_bottom = 132.0
+texture_normal = ExtResource("5_613mh")
+
+[node name="MultiplyButton" type="TextureButton" parent="."]
+offset_left = 158.0
+offset_top = 66.0
+offset_right = 190.0
+offset_bottom = 98.0
+texture_normal = ExtResource("6_lx6mi")
+
+[node name="NegativeButton" type="TextureButton" parent="."]
+offset_left = 68.0
+offset_top = 130.0
+offset_right = 100.0
+offset_bottom = 162.0
+texture_normal = ExtResource("7_wkjb6")
+
+[node name="NumberButton0" type="TextureButton" parent="."]
+offset_left = 103.0
+offset_top = 132.0
+offset_right = 135.0
+offset_bottom = 164.0
+texture_normal = ExtResource("8_fhoox")
+
+[node name="NumberButton1" type="TextureButton" parent="."]
+offset_left = 69.0
+offset_top = 99.0
+offset_right = 101.0
+offset_bottom = 131.0
+texture_normal = ExtResource("9_fbuc4")
+
+[node name="NumberButton2" type="TextureButton" parent="."]
+offset_left = 100.0
+offset_top = 99.0
+offset_right = 132.0
+offset_bottom = 131.0
+texture_normal = ExtResource("10_5n5tj")
+
+[node name="NumberButton3" type="TextureButton" parent="."]
+offset_left = 132.0
+offset_top = 98.0
+offset_right = 164.0
+offset_bottom = 130.0
+texture_normal = ExtResource("11_1po8a")
+
+[node name="NumberButton4" type="TextureButton" parent="."]
+offset_left = 66.0
+offset_top = 67.0
+offset_right = 98.0
+offset_bottom = 99.0
+texture_normal = ExtResource("12_c2mfj")
+
+[node name="NumberButton5" type="TextureButton" parent="."]
+offset_left = 97.0
+offset_top = 68.0
+offset_right = 129.0
+offset_bottom = 100.0
+texture_normal = ExtResource("13_nqea7")
+
+[node name="NumberButton6" type="TextureButton" parent="."]
+offset_left = 127.0
+offset_top = 68.0
+offset_right = 159.0
+offset_bottom = 100.0
+texture_normal = ExtResource("14_tw82k")
+
+[node name="NumberButton7" type="TextureButton" parent="."]
+offset_left = 66.0
+offset_top = 40.0
+offset_right = 98.0
+offset_bottom = 72.0
+texture_normal = ExtResource("15_j57hp")
+
+[node name="NumberButton8" type="TextureButton" parent="."]
+offset_left = 99.0
+offset_top = 38.0
+offset_right = 131.0
+offset_bottom = 70.0
+texture_normal = ExtResource("16_7qtcs")
+
+[node name="NumberButton9" type="TextureButton" parent="."]
+offset_left = 129.0
+offset_top = 38.0
+offset_right = 161.0
+offset_bottom = 70.0
+texture_normal = ExtResource("17_e43d1")
+
+[node name="AdditionButton" type="TextureButton" parent="."]
+offset_left = 161.0
+offset_top = 132.0
+offset_right = 193.0
+offset_bottom = 164.0
+texture_normal = ExtResource("18_fpx8g")
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
